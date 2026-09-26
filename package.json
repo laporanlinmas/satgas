@@ -1,0 +1,42 @@
+{
+  "name": "sipedas",
+  "version": "5.0.0",
+  "private": true,
+  "description": "SIPEDAS — Sistem Pelaporan Digital Satgas Linmas (Ponorogo)",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run lint && npm run build"
+  },
+  "dependencies": {
+    "cloudinary": "^2.11.0",
+    "firebase-admin": "^14.4.0",
+    "googleapis": "^182.0.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.47.0",
+    "next": "^14.2.3",
+    "qrcode": "^1.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5"
+  }
+}
